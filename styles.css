@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Open+Sans:wght@400;700&family=Poppins:wght@500;700&family=Raleway&family=Roboto&family=Ubuntu+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.planet-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.planet-name {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image {
+    width: 100%;
+}
